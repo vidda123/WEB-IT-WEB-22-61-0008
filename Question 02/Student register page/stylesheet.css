@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(21, 96, 182);
+}
+.heading-font{
+    color: white;
+}
+.form-item{
+    font-size: larger;
+    color: black;
+}
