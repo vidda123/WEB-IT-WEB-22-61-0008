@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FINAL PROJECT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,600&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <header class="container-fluid"> <!--Navbar section-->
+        <div class="row" >
+            <div class="col-md-12 col-sm-12">
+                <nav class="navbar">
+                    <div class="container">
+                      <a class="navbar-brand fw-bold text-primary nav-head">Taskia</a>
+                        <button class="btn btn-primary" type="submit">Try it free</button>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <hero class="container"> <!--hero-picture section-->
+        <div class="row row-cols-md-2 row-cols-sm-2 m-5">
+        <div class="col-md-sm mt-5">
+            <h2 class="fw-bold display-5">Task Management<br> and List Tools</h2>
+            <p class="fw-light"><small>We believe that designing products and services in close
+                <br>partnership with our clients is the only way to have a real
+                <br>impact on their business.</small></p><br>
+                    <div class="container-fluid">
+                        <form  onsubmit="return validateForm()" class="d-flex">
+                            <input  type="email" class="form-control email form-validation" id="email" placeholder="Name@company.com">
+                            <input class="btn btn-primary form-btn ms-4" type="submit" value="Try it free">
+                        </form>
+                    </div>
+        </div>
+        <div class="col-sm-md">
+            <img src="./images/hero image.jpg" class="img-fluid hero-img"  alt="Hero-picture">
+        </div>
+    </div>
+</hero>
+<hr>
+<section class="container"> <!--3 card section topic-->
+    <div class="row row-cols-md-1 row-cols-sm-1 m-5">
+    <h1 class="text-center fw-bold">Featured Service that we Provide</h1>
+    </div>
+    </section>
+<section class="container"> <!--3 card section-->
+    <div class="row row-cols-md-3 row-cols-sm-3 m-5">
+        <div class="col-md-sm">
+            <div class="card bg-primary" style="width: 18rem;">
+                <img src="./images/Image 3.png" class="card-img-top" alt="...">
+                <div class="card-body text-white">
+                  <p class="card-title fs-4">Keep tasks in one place</p>
+                  <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks tostay on schedule</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-sm">
+            <div class="card bg-success" style="width: 18rem;">
+                <img src="./images/Image 2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title fs-4">Keep tasks in one place</p>
+                  <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks tostay on schedule</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-sm">
+            <div class="card bg-light" style="width: 18rem;">
+                <img src="./images/Image 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title fs-4">Keep tasks in one place</p>
+                  <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks tostay on schedule</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section class="container">   <!--Task managment section-->
+    <div class="row row-cols-md-2 row-cols-sm-2 m-5">
+    <div class="col-md-sm mt-5">
+        <div class="col-md-sm">
+            <img src="./images/Image 8.jpg" class="img-fluid"  alt="Hero-picture">
+        </div>
+    </div>
+ <div class="col-md-sm mt-5">
+    <h2 class="fw-bold display-6">Why do you need <br>task management</h2>
+    <br> <br>
+        <p class="fw-light"><small>Do you waste time organizing sticky notes, searching your email
+            and apps for to-dos, and figuring out what to work on first?
+            Then you need one solution to prioritize your tasks, manage
+            your time, and meet your deadlines.
+            </small></p>
+            <br>
+     <button type="button" class="btn btn-primary">Learn more</button>
+</div>
+</div>
+</section>
+<hr>
+<section class="container"> <!--Seamless Team section-->
+    <div class="row row-cols-md-2 row-cols-sm-2 m-5">
+    <div class="col-md-sm mt-5">
+        <h2 class="fw-bold display-6">Seamless Team <br>Workflow & Efficient</h2>
+        <p class="fw-light"><small>Do you waste time organizing sticky notes, searching your email
+            and apps for to-dos, and figuring out what to work on first?
+            Then you need one solution to prioritize your tasks, manage
+            your time, and meet your deadlines.</small></p>
+        <img src="./images/Image 6.jpg" alt="">
+        <img src="./images/Image 9.jpg" alt="">
+    </div>
+    <div class="col-md-sm">
+        <img src="./images/Image 7.jpg" class="img-fluid hero-img"  alt="Hero-picture">
+    </div>
+</div>
+</section>
+<hr>
+<section class="container"> <!--Round picture section topic-->
+    <div class="row row-cols-md-1 row-cols-sm-1 m-5">
+    <h1 class="text-center fw-bold">Trust us and feel free to try our service</h1>
+    </div>
+    </section>
+<section class="container">
+    <div class="row row-cols-md-3 row-cols-sm-3 m-5">
+        <div class="col-md-sm">
+            <img src="./images/Image 4.jpg" alt="Round image">
+        </div>
+        <div class="col-md-sm">
+            <h1 class="display-1 font-size">100,000</h1>
+        </div>
+        <div class="col-md-sm">
+            <img src="./images/Image 5.jpg" alt="Round image 2">
+        </div>
+    </div>
+</section>
+<hr>
+<footer class="container"> <!--Footer  section topic-->
+    <div class="row row-cols-md-1 row-cols-sm-1 m-5">
+    <h1 class="text-center fw-bold">Get better work done</h1>
+    <p class="text-center fw-light">See why millions of people across 195 <br>countries use Dash.</p>
+    <nav class="navbar">
+        <div class="container">
+          <form onsubmit="return validateForm()" class="d-flex" role="search" >
+            <input class="form-control me-2 form-validation" type="email" placeholder="Name@company.com" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Try it free</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+</footer>
